@@ -1,0 +1,46 @@
+.event-form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.form-container{
+    padding: 25px;
+    background-color: #ffffff99;
+    border-radius: 15px;
+    border: 1px solid #ceadad;
+    width: 25%;
+    margin-top: 20px;
+}
+.label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+.inputEl{
+    outline: none;
+    border: 1px solid lightgreen;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    padding-left: 10px;
+    height: 35px;
+    padding-right: 10px;
+}
+.buttonEl{
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    height: 35px;
+    align-self: center;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+}

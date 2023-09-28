@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+}
+.app-container{
+    
+    padding: 15px;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+.heading{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.weekDropdown{
+    outline: none;
+    border: 1px solid #000000 ;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 10px;
+    margin-right: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.date-range{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.date{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.month{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.year{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.buttonEle{
+    border: 1px solid #000000;
+    border-radius: 50%;
+    background-color: #ffffff;
+    outline: none;
+    cursor: pointer;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.current-year{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.current-month{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.date-slide{
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    align-items: center;
+    padding: 8px;
+}
+.list-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    list-style-type: none;
+    padding-top: 15px;
+}
+.list-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 60%;
+    border: 1px solid #ae6bbe;
+    padding: 10px;
+}
+.week-name{
+    padding-top: 12px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.date-num{
+    font-size: 18px;
+    font-weight: 600;
+}
+.event-con{
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.form-alignment{
+   width: 900px;
+}
+.event-timeline{
+    width: 900px;
+}
